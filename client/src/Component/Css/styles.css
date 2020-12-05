@@ -1,0 +1,148 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@300;400;600&display=swap");
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Baloo Thambi 2", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  background-color: white;
+  color: rgba(20, 20, 20, 1);
+  padding: 50px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #222f3e;
+}
+
+.container {
+  margin-top: 3px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 7px;
+  min-height: 300px;
+}
+#inputContainer {
+  border: 1px solid #74b9ff;
+}
+#transContainer {
+  border: 1px solid #55efc4;
+  min-height: 150px;
+}
+#resultContainer {
+  border: 1px solid #fab1a0;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+}
+#inputTitle {
+  color: #0984e3;
+}
+#transTitle {
+  color: #00b894;
+}
+#resultTitle {
+  color: #ff7675;
+}
+
+.grey {
+  color: grey;
+}
+
+#inputFile,
+select,
+input[type="submit"],
+button {
+  cursor: pointer;
+  outline-style: none;
+}
+
+#inputFile {
+  border-bottom: 0.5px solid grey;
+}
+
+input[type="submit"] {
+  padding: 5px 8px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+#inputContainer input[type="submit"] {
+  background-color: #0984e3;
+}
+#transContainer input[type="submit"] {
+  background-color: #00b894;
+}
+#resultContainer input[type="submit"] {
+  background-color: #ff7675;
+}
+
+.flexDiv,
+#audioForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#audioForm {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  outline-style: none;
+  resize: none;
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+}
+#writingArea {
+  height: 200px;
+}
+#transArea {
+  margin-top: 10px;
+  height: 80px;
+  cursor: default;
+}
+
+#inputContainer input[type="submit"],
+#resultContainer input[type="submit"] {
+  margin-left: 10px;
+}
+
+table {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+thead {
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 1px solid #ff7675;
+}
+tbody {
+  font-size: 15px;
+}
+th,
+td {
+  padding: 5px;
+}
+
+button {
+  background-color: white;
+  color: #54a0ff;
+  border: none;
+}
