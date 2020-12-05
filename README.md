@@ -12,11 +12,14 @@
 
 Input 언어가 한국어 일 때
 ![처음 실행 화면](readme-images/3.jpg)
+결과 화면
 ![한국어 실행 화면](readme-images/5.jpg)
 
 Input 언어가 외국어 일 때
 ![처음 실행 화면2](readme-images/4.jpg)
+결과 화면
 ![외국어 실행 화면](readme-images/2.jpg)
+팝업 화면
 ![팝업 화면](readme-images/1.jpg)
 
 ## 1.
