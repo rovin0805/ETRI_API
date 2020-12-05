@@ -14,6 +14,9 @@ dotenv.config();
 app.use(express.json());
 app.use(cors());
 
+// server running verification
+app.get("/server-test", (req, res) => res.send("server is fine"));
+
 // 음성 인식 API
 app.post("/upload/:languageCode", upload.single("audio"), (req, res, next) => {
   const openApiUrl = "http://aiopen.etri.re.kr:8000/WiseASR/Recognition";
