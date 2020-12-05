@@ -8,6 +8,17 @@
 
 분석된 각 단어들의 정의에 대한 설명을 제공한다.
 
+## 실행 화면
+
+Input 언어가 한국어 일 때
+![처음 실행 화면](readme-images/3.jpg)
+![한국어 실행 화면](readme-images/5.jpg)
+
+Input 언어가 외국어 일 때
+![처음 실행 화면2](readme-images/4.jpg)
+![외국어 실행 화면](readme-images/2.jpg)
+![팝업 화면](readme-images/1.jpg)
+
 ## 1.
 
 오디오 파일를 업로드하여 음성인식 API를 통해 오디오의 말을 텍스트로 추출한다.
